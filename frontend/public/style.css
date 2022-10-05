@@ -1,6 +1,9 @@
 * {
   -webkit-font-smoothing: antialiased;
 }
+html{
+  height: -webkit-fill-available; 
+}
 body {
   font-family: "Inter", sans-serif;
   -ms-text-size-adjust: 100%;
@@ -10,6 +13,7 @@ body {
   -webkit-font-feature-settings: "kern" 1, "liga" 1;
   font-feature-settings: "kern" 1, "liga" 1;
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 .top-announcement {
   background-color: #59ca00;
@@ -52,3 +56,4 @@ body {
   z-index: 1041;
   background-size: cover;
 }
+
